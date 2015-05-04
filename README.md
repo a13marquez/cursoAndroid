@@ -1,2 +1,0 @@
-# cursoAndroid
-Curso android Udemy
