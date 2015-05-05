@@ -12,16 +12,19 @@
         android:layout_height="wrap_content"
         android:text="Button1"
         android:id="@+id/button1"
-
-        android:onClick="performStuff"/>
+        android:onClick="performStuff"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Button2"
         android:id="@+id/button2"
+        android:onClick="performStuff"
         android:layout_below="@+id/button1"
-        android:layout_marginTop="72dp"
-        android:onClick="performStuff"/>
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp" />
 
 </RelativeLayout>

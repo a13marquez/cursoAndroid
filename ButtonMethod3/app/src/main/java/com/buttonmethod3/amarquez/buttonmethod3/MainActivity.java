@@ -20,7 +20,7 @@ public class MainActivity extends ActionBarActivity {
                 Log.d("a13marquez", "Button1 clicked");
                 break;
             case R.id.button2:
-                Log.d("a13marquez", "Button1 clicked");
+                Log.d("a13marquez", "Button2 clicked");
                 break;
         }
     }
