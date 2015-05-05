@@ -17,6 +17,7 @@ public class ActivityA extends ActionBarActivity {
         switch (v.getId()){
             case R.id.bMethod1:
                 Intent i = new Intent(ActivityA.this, ActivityB.class);
+                startActivity(i);
                 break;
             case R.id.bMethod2:
                 Intent j = new Intent("a13marquez.explicitintent.ActivityB");
@@ -24,7 +25,8 @@ public class ActivityA extends ActionBarActivity {
                 break;
             case R.id.bMethod3:
                 Intent k = new Intent();
-                k.setClassName("com.explicitintent.amarquez.explicitintent", "com.explicitintent.amarquez.explicitintent.activityB");
+                k.setClassName("com.explicitintent.amarquez.explicitintentt", " com.explicitintent.amarquez.explicitintent.ActivityB");
+                startActivity(k);
                 break;
         }
     }
